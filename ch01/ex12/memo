@@ -1,0 +1,3 @@
+URLからアクションを振り分けるメソッドをハンドラという。http.HandleFUnc(URL, Action)で実現できる。
+Actionに入るのは関数またはメソッドだが、第一引数にResponseWriter、第二引数にhttp.Requestが入ると相場が決まっている？
+練習問題1.12はr:=*http.Requestに対して r.URL.Query() でクエリストリングを取得できるのでそれを使う。
